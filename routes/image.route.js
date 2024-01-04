@@ -1,7 +1,6 @@
 const express = require('express');
 const multer = require('multer');
 const path = require('path');
-const Image = require('../shema/image.schema');
 const Media  = require('../shema/media.schema');
 
 const router = express.Router();
