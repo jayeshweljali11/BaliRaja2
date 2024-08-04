@@ -33,7 +33,7 @@ const login = async (req, res) => {
     }
 
     const token = generateToken(user);
-    res.json({ token });
+    res.json({ token ,message:"user is login in the app" });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
