@@ -1,7 +1,7 @@
 const express = require('express');
 const multer = require('multer');
 const path = require('path');
-const Media  = require('../shema/media.schema');
+const Media  = require('../schema/media.schema');
 
 const router = express.Router();
 

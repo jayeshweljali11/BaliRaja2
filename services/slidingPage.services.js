@@ -1,4 +1,4 @@
-const SlidingPageModel = require('../shema/slidingPage.shema')
+const SlidingPageModel = require('../schema/slidingPage.shema')
 
 class SlidingPageService {
   async getAllSlidingPages() {
