@@ -186,7 +186,7 @@
                         "S3Bucket": {
                           "Ref": "ServerlessDeploymentBucket"
                         },
-                        "S3Key": "serverless/baliraja/dev/1722943504535-2024-08-06T11:25:04.535Z/baliraja.zip"
+                        "S3Key": "serverless/baliraja/dev/1723013588141-2024-08-07T06:53:08.141Z/baliraja.zip"
                       },
                       "Handler": "app.handler",
                       "Runtime": "nodejs16.x",
@@ -204,14 +204,14 @@
                       "ApiLogGroup"
                     ]
                   },
-                  "ApiLambdaVersionQdUqFMkqobE0HgBiMwwHT5pk6uZgHWmgSYpJrJ3wZe8": {
+                  "ApiLambdaVersioncAvQZzBuj0CrOVKA2y2zsM0IzDnM3kChnqprEryyU": {
                     "Type": "AWS::Lambda::Version",
                     "DeletionPolicy": "Retain",
                     "Properties": {
                       "FunctionName": {
                         "Ref": "ApiLambdaFunction"
                       },
-                      "CodeSha256": "FjXj0XL/v6X8X2TcTwhVtNptUx7sXu2XJiEmcYMuzI8="
+                      "CodeSha256": "kK/i3iqNWGfIXzi03lXcRXNEh/N4AoAGo80pjuPiuwM="
                     }
                   },
                   "HttpApi": {
@@ -322,7 +322,7 @@
                   "ApiLambdaFunctionQualifiedArn": {
                     "Description": "Current Lambda function version",
                     "Value": {
-                      "Ref": "ApiLambdaVersionQdUqFMkqobE0HgBiMwwHT5pk6uZgHWmgSYpJrJ3wZe8"
+                      "Ref": "ApiLambdaVersioncAvQZzBuj0CrOVKA2y2zsM0IzDnM3kChnqprEryyU"
                     },
                     "Export": {
                       "Name": "sls-baliraja-dev-ApiLambdaFunctionQualifiedArn"
@@ -463,7 +463,7 @@
                 "timeout": 6,
                 "runtime": "nodejs16.x",
                 "vpc": {},
-                "versionLogicalId": "ApiLambdaVersionQdUqFMkqobE0HgBiMwwHT5pk6uZgHWmgSYpJrJ3wZe8"
+                "versionLogicalId": "ApiLambdaVersioncAvQZzBuj0CrOVKA2y2zsM0IzDnM3kChnqprEryyU"
               }
             }
           },
@@ -655,7 +655,7 @@
                         "S3Bucket": {
                           "Ref": "ServerlessDeploymentBucket"
                         },
-                        "S3Key": "serverless/baliraja/dev/1722943504535-2024-08-06T11:25:04.535Z/baliraja.zip"
+                        "S3Key": "serverless/baliraja/dev/1723013588141-2024-08-07T06:53:08.141Z/baliraja.zip"
                       },
                       "Handler": "app.handler",
                       "Runtime": "nodejs16.x",
@@ -673,14 +673,14 @@
                       "ApiLogGroup"
                     ]
                   },
-                  "ApiLambdaVersionQdUqFMkqobE0HgBiMwwHT5pk6uZgHWmgSYpJrJ3wZe8": {
+                  "ApiLambdaVersioncAvQZzBuj0CrOVKA2y2zsM0IzDnM3kChnqprEryyU": {
                     "Type": "AWS::Lambda::Version",
                     "DeletionPolicy": "Retain",
                     "Properties": {
                       "FunctionName": {
                         "Ref": "ApiLambdaFunction"
                       },
-                      "CodeSha256": "FjXj0XL/v6X8X2TcTwhVtNptUx7sXu2XJiEmcYMuzI8="
+                      "CodeSha256": "kK/i3iqNWGfIXzi03lXcRXNEh/N4AoAGo80pjuPiuwM="
                     }
                   },
                   "HttpApi": {
@@ -791,7 +791,7 @@
                   "ApiLambdaFunctionQualifiedArn": {
                     "Description": "Current Lambda function version",
                     "Value": {
-                      "Ref": "ApiLambdaVersionQdUqFMkqobE0HgBiMwwHT5pk6uZgHWmgSYpJrJ3wZe8"
+                      "Ref": "ApiLambdaVersioncAvQZzBuj0CrOVKA2y2zsM0IzDnM3kChnqprEryyU"
                     },
                     "Export": {
                       "Name": "sls-baliraja-dev-ApiLambdaFunctionQualifiedArn"
@@ -932,7 +932,7 @@
                 "timeout": 6,
                 "runtime": "nodejs16.x",
                 "vpc": {},
-                "versionLogicalId": "ApiLambdaVersionQdUqFMkqobE0HgBiMwwHT5pk6uZgHWmgSYpJrJ3wZe8"
+                "versionLogicalId": "ApiLambdaVersioncAvQZzBuj0CrOVKA2y2zsM0IzDnM3kChnqprEryyU"
               }
             }
           },
@@ -1128,7 +1128,7 @@
                   "S3Bucket": {
                     "Ref": "ServerlessDeploymentBucket"
                   },
-                  "S3Key": "serverless/baliraja/dev/1722943504535-2024-08-06T11:25:04.535Z/baliraja.zip"
+                  "S3Key": "serverless/baliraja/dev/1723013588141-2024-08-07T06:53:08.141Z/baliraja.zip"
                 },
                 "Handler": "app.handler",
                 "Runtime": "nodejs16.x",
@@ -1146,14 +1146,14 @@
                 "ApiLogGroup"
               ]
             },
-            "ApiLambdaVersionQdUqFMkqobE0HgBiMwwHT5pk6uZgHWmgSYpJrJ3wZe8": {
+            "ApiLambdaVersioncAvQZzBuj0CrOVKA2y2zsM0IzDnM3kChnqprEryyU": {
               "Type": "AWS::Lambda::Version",
               "DeletionPolicy": "Retain",
               "Properties": {
                 "FunctionName": {
                   "Ref": "ApiLambdaFunction"
                 },
-                "CodeSha256": "FjXj0XL/v6X8X2TcTwhVtNptUx7sXu2XJiEmcYMuzI8="
+                "CodeSha256": "kK/i3iqNWGfIXzi03lXcRXNEh/N4AoAGo80pjuPiuwM="
               }
             },
             "HttpApi": {
@@ -1264,7 +1264,7 @@
             "ApiLambdaFunctionQualifiedArn": {
               "Description": "Current Lambda function version",
               "Value": {
-                "Ref": "ApiLambdaVersionQdUqFMkqobE0HgBiMwwHT5pk6uZgHWmgSYpJrJ3wZe8"
+                "Ref": "ApiLambdaVersioncAvQZzBuj0CrOVKA2y2zsM0IzDnM3kChnqprEryyU"
               },
               "Export": {
                 "Name": "sls-baliraja-dev-ApiLambdaFunctionQualifiedArn"
@@ -1405,7 +1405,7 @@
           "timeout": 6,
           "runtime": "nodejs16.x",
           "vpc": {},
-          "versionLogicalId": "ApiLambdaVersionQdUqFMkqobE0HgBiMwwHT5pk6uZgHWmgSYpJrJ3wZe8"
+          "versionLogicalId": "ApiLambdaVersioncAvQZzBuj0CrOVKA2y2zsM0IzDnM3kChnqprEryyU"
         }
       }
     },
@@ -1416,7 +1416,7 @@
     "options": {},
     "error": null,
     "params": {},
-    "machineId": "7166a5b09cee590cbd62ecbef54aa95c",
+    "machineId": "0b42a4345a3df9e1258d71d9fcd8d89a",
     "accessKeyV2": "<REDACTED>",
     "accessKeyV1": "<REDACTED>",
     "orgId": "60a2a109-8f16-4744-8de6-963fafbe2692",
@@ -1440,12 +1440,12 @@
     "serviceProviderAwsCfStackName": "baliraja-dev",
     "serviceProviderAwsCfStackId": "arn:aws:cloudformation:ap-south-1:010438504309:stack/baliraja-dev/3b598ec0-5224-11ef-aee4-02ee28f603c9",
     "serviceProviderAwsCfStackCreated": "2024-08-04T05:41:44.031Z",
-    "serviceProviderAwsCfStackUpdated": "2024-08-06T11:26:52.798Z",
+    "serviceProviderAwsCfStackUpdated": "2024-08-07T06:53:46.970Z",
     "serviceProviderAwsCfStackStatus": "UPDATE_COMPLETE",
     "serviceProviderAwsCfStackOutputs": [
       {
         "OutputKey": "ApiLambdaFunctionQualifiedArn",
-        "OutputValue": "arn:aws:lambda:ap-south-1:010438504309:function:baliraja-dev-api:9",
+        "OutputValue": "arn:aws:lambda:ap-south-1:010438504309:function:baliraja-dev-api:10",
         "Description": "Current Lambda function version",
         "ExportName": "sls-baliraja-dev-ApiLambdaFunctionQualifiedArn"
       },

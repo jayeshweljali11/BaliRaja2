@@ -175,7 +175,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/baliraja/dev/1722943504535-2024-08-06T11:25:04.535Z/baliraja.zip"
+                "S3Key": "serverless/baliraja/dev/1723013588141-2024-08-07T06:53:08.141Z/baliraja.zip"
               },
               "Handler": "app.handler",
               "Runtime": "nodejs16.x",
@@ -193,14 +193,14 @@
               "ApiLogGroup"
             ]
           },
-          "ApiLambdaVersionQdUqFMkqobE0HgBiMwwHT5pk6uZgHWmgSYpJrJ3wZe8": {
+          "ApiLambdaVersioncAvQZzBuj0CrOVKA2y2zsM0IzDnM3kChnqprEryyU": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ApiLambdaFunction"
               },
-              "CodeSha256": "FjXj0XL/v6X8X2TcTwhVtNptUx7sXu2XJiEmcYMuzI8="
+              "CodeSha256": "kK/i3iqNWGfIXzi03lXcRXNEh/N4AoAGo80pjuPiuwM="
             }
           },
           "HttpApi": {
@@ -308,7 +308,7 @@
           "ApiLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ApiLambdaVersionQdUqFMkqobE0HgBiMwwHT5pk6uZgHWmgSYpJrJ3wZe8"
+              "Ref": "ApiLambdaVersioncAvQZzBuj0CrOVKA2y2zsM0IzDnM3kChnqprEryyU"
             },
             "Export": {
               "Name": "sls-baliraja-dev-ApiLambdaFunctionQualifiedArn"
@@ -453,7 +453,7 @@
         "timeout": 6,
         "runtime": "nodejs16.x",
         "vpc": {},
-        "versionLogicalId": "ApiLambdaVersionQdUqFMkqobE0HgBiMwwHT5pk6uZgHWmgSYpJrJ3wZe8"
+        "versionLogicalId": "ApiLambdaVersioncAvQZzBuj0CrOVKA2y2zsM0IzDnM3kChnqprEryyU"
       }
     },
     "configValidationMode": "warn",
@@ -477,7 +477,7 @@
     "artifact": "C:\\Users\\Ruturaj w\\Desktop\\BaliRaja2\\.serverless\\baliraja.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/baliraja/dev/1722943504535-2024-08-06T11:25:04.535Z",
+    "artifactDirectoryName": "serverless/baliraja/dev/1723013588141-2024-08-07T06:53:08.141Z",
     "artifact": "baliraja.zip"
   }
 }
